@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.com/Juniper" name="github"/>
+  
+  <default remote="github" revision="refs/tags/v5.1"/>
+  
+  <project name="contrail-analytics" path="src/contrail-analytics" revision="4e8d0a2086f7c65ce1419d9be2da950186df2677" upstream="refs/tags/v5.1"/>
+  <project name="contrail-api-client" path="src/contrail-api-client" revision="3a1ca390c3f7d51480be159fe7779428a4fe1272" upstream="refs/tags/v5.1"/>
+  <project name="contrail-build" path="tools/build" revision="060d598f370969e9e1d9ce8467ea771f90020c53" upstream="refs/tags/v5.1">
+    <copyfile dest="SConstruct" src="SConstruct"/>
+  </project>
+  <project name="contrail-common" path="src/contrail-common" revision="3e35471fec36612c4b956e35f41f62a9ad25dd58" upstream="refs/heads/R5.1"/>
+  <project name="contrail-controller" path="controller" revision="f24197a11e8401891ea1294feb28040da6f20f5a" upstream="refs/tags/v5.1"/>
+  <project name="contrail-dpdk" path="third_party/dpdk" revision="b420bd4d70f90adff57aca7636269c4a982be2bd" upstream="refs/tags/v5.1"/>
+  <project name="contrail-fabric-utils" path="third_party/fabric-utils" revision="5d7bc86675842af0ed1384f9266480234aa928bd" upstream="refs/tags/v5.1"/>
+  <project name="contrail-heat" path="openstack/contrail-heat" revision="e729dd314cd24ed5297d3ef10b42cf48b42b04d5" upstream="refs/tags/v5.1"/>
+  <project name="contrail-java-api" path="java-api" revision="152a2eddeb792085225d2c71ad26e45941a2c4c9" upstream="refs/tags/v5.1"/>
+  <project name="contrail-neutron-plugin" path="openstack/neutron_plugin" revision="c82e212343dfd37d45b8b95974fe68cb755f02ca" upstream="refs/tags/v5.1"/>
+  <project name="contrail-nova-vif-driver" path="openstack/nova_contrail_vif" revision="9ff081dda11b86fb72f611be7f0869f362af810e" upstream="refs/tags/v5.1"/>
+  <project name="contrail-packages" path="tools/packages" revision="8bb39577938205484f7f2178bd60aa44d7dc5353" upstream="refs/tags/v5.1">
+    <copyfile dest="packages.make" src="packages.make"/>
+  </project>
+  <project name="contrail-provisioning" path="tools/provisioning" revision="68f918d784581507b7fc2a7b7843f6a8f09ef47e" upstream="refs/tags/v5.1"/>
+  <project name="contrail-sandesh" path="tools/sandesh" revision="812c7ceffe42d2814a88c3d1eed4aedeb84fcd75" upstream="refs/tags/v5.1"/>
+  <project name="contrail-specs" revision="6dc1a2caa40a2711938a1e8e1520505bd5741605" upstream="refs/tags/v5.1"/>
+  <project name="contrail-test" path="third_party/contrail-test" revision="cb112880dbb66c2567e4c11de239e7470c2c6b22" upstream="refs/tags/v5.1"/>
+  <project name="contrail-third-party" path="third_party" revision="4f1313f80fa6e7548ab55c05f8c72a814939081a" upstream="refs/tags/v5.1"/>
+  <project name="contrail-tripleo-puppet" path="openstack/contrail-tripleo-puppet" revision="b3c14e9592a0c705fda1e0a5599c9fa18ea18468" upstream="refs/tags/v5.1"/>
+  <project name="contrail-vcenter-manager" path="vcenter-manager" revision="22c414323de04225bbddebfb2ac01ab3897206a0" upstream="refs/tags/v5.1"/>
+  <project name="contrail-vcenter-plugin" path="vcenter-plugin" revision="6817ddcc1429c8278ced5182fa96a677caab5e07" upstream="refs/tags/v5.1"/>
+  <project name="contrail-vro-plugin" path="vro-plugin" revision="fbf6d5496f0551195954581c78126c6a9e2e5ab8" upstream="refs/tags/v5.1"/>
+  <project name="contrail-vrouter" path="vrouter" revision="e102dc977be127d6ebc0988777321626474508b9" upstream="refs/tags/v5.1"/>
+  <project name="contrail-vrouter-java-api" path="vrouter-java-api" revision="609a11ea6f944b221b6ae06c6fd1f8a911b7f35a" upstream="refs/tags/v5.1"/>
+  <project name="contrail-web-controller" revision="70639fd441b527f2bc9203da59791ac4e06204b0" upstream="refs/tags/v5.1"/>
+  <project name="contrail-web-core" revision="8409f8601005bb2c1f0d0b4178d7a16c7aaf071a" upstream="refs/tags/v5.1"/>
+  <project name="contrail-web-server-manager" revision="079177a9ea1948b12056a42aead7dbe786332b77" upstream="refs/tags/v5.1"/>
+  <project name="contrail-web-storage" revision="2f298bef7d971c65000231dd21b3e1998fbd3b90" upstream="refs/tags/v5.1"/>
+  <project name="contrail-webui-third-party" revision="ce3932bafb1709455c70a9112cb9ddcf1a49c368" upstream="refs/tags/v5.1"/>
+  <project name="vijava" revision="3063660569f963ff3469f93dce9ae181378d6346" upstream="refs/tags/v5.1"/>
+</manifest>
